@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Auction so easy - Threedoor</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/css?family=Itim" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="cssPa/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="cssPa/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="./css/sweetalert.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/sweetalert.css">
+</head>
+<body>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo"><img src="./pic/logo.png" width="150px" height="55px"></a>
+      <ul class="right hide-on-med-and-down" style="font-family: 'Itim', cursive;">
+        <li><a href="./signup.php">Sign up</a></li>
+        <li><font color="black">|</font></li>
+        <li><a href="./login.php">Login</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav" style="font-family: 'Itim', cursive; font-size: 3em;">
+      <br>
+        <li><a href="#"><center><img src="./pic/logo.png" width="150px" height="55px"></center></a></li>
+        <br>
+        <li><a href="./signup.php"><i class="material-icons">person_add</i>Sign up</a></li>
+        <li><a href="./login.php"><i class="material-icons">person</i>Login</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div id="index-banner" class="parallax-container" style="font-family: 'Itim', cursive;">
+    <div class="section no-pad-bot">
+      <div class="container" style="font-family: 'Itim', cursive; text-shadow : -1px 0 #000, 0 2px #000, 3px 0 #000, 0 -1px #000;">
+        <br><br>
+        <h2 class="header center teal-text text-lighten-2">ยินดีต้อนรับสู่ </h2>
+        <h3 class="header center teal-text text-lighten-2">THREE DOOR</h3>
+        <div class="row center">
+          <h5 class="header col s12 light">การประมูลสินค้าง่ายกว่าที่คุณคิด มาลองใช้ THREE DOOR ดูสิ</h5>
+        </div>
+        <div class="row center">
+          <a href="./home.php" id="download-button" class="btn-large waves-effect waves-light teal lighten-1" style="width: 30%; font-size: 2em; font-family: 'Itim', cursive;">เริ่มเลย</a>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="./pic/header.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+
+  <div class="container" style="font-family: 'Itim', cursive;">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m3">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">gavel</i></h2>
+            <h5 class="center">ระบบประมูล</h5>
+
+            <p class="light">การประมูลที่สามารถกำหนดราคาเองได้ เพียงป้อนราคาที่ต้องการแล้วคลิกเสนอราคา สะดวกรวดเร็วในการเสนอราคา</p>
+          </div>
+        </div>
+
+        <div class="col s12 m3" style="font-family: 'Itim', cursive;">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">view_module</i></h2>
+            <h5 class="center">ระบบแยกหมวดหมู่</h5>
+
+            <p class="light">มีการแยกประเภทสินค้าให้เลือกอย่างชัดเจน ท่านสามารถเลือกประเภทสินค้าได้เองตามใจชอบ สะดวกรวดเร็วต่อการค้นหาสินค้าที่ท่านต้องการประมูล</p>
+          </div>
+        </div>
+
+        <div class="col s12 m3" style="font-family: 'Itim', cursive;">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">update</i></h2>
+            <h5 class="center">ระบบติดตามสถานะ</h5>
+
+            <p class="light">คุณสามารถติดตามสถานะว่าสินค้าชิ้นไหนที่คุณประมูลชนะได้ตลอดเวลา</p>
+          </div>
+        </div>
+
+        <div class="col s12 m3" style="font-family: 'Itim', cursive;">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">attach_money</i></h2>
+            <h5 class="center">ระบบชำระเงิน</h5>
+
+            <p class="light">มีระบบการชำระเงินที่ปลอดภัย และมีให้เลือกช่องทางการชำระเงินได้หลายช่องทาง ง่าย สะดวก รวดเร็ว และปลอดภัย</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper" style="font-family: 'Itim', cursive;">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light"></h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="./pic/middle.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container" style="font-family: 'Itim', cursive;">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>THREE DOOR คืออะไร?</h4>
+          <p class="left-align light">Three door คือเว็บไซต์ที่ให้บริการด้านการประมูลสินค้า คุณสามารถเลือกประเภทสินค้า และเริ่มการประมูลสินค้าของคุณได้ทุกที่ทุกเวลา ไม่ว่าคุณจะอยู่สถานที่ใด คุณก็สามารถประมูลสินค้าได้ เพียงคุณมีอินเตอร์เน็ต แล้วเข้ามาทางเว็บไซต์ของเรา สะดวก รวดเร็ว และยังมีบริการช่องทางการชำระเงินที่หลากหลาย ให้คุณได้เลือกชำระเงินตามช่องทางที่คุณต้องการ สะดวกและปลอดภัย มาลองใช้บริการกับเว็บเราดูสิครับ</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper" style="font-family: 'Itim', cursive;">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light"></h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="./pic/footer.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <footer class="page-footer teal" style="font-family: 'Itim', cursive; color: white;">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Three Door</h5>
+          <p class="grey-text text-lighten-4">เว็บนี้จัดทำขึ้นเพื่อส่งงานในกระบวนวิชา 204222 หลักการของระบบฐานข้อมูล (Fundamentals of Database Systems) </p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Provider</h5>
+          <ul>
+            <li>นาย ศุภกิจ ชุ่มจันทร์จิรา</li>
+            <li>นาย สัญชนน อุทธชัย </li>
+            <li>นาย อัศม์เดช เดชขจร </li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Status</h5>
+          <ul>
+            <li>Web Design</li>
+            <li>System Design</li>
+            <li>Graphic Design</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Develop by <a class="brown-text text-lighten-3" href="http://threedoor.96.lt">THREEDOOR</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>

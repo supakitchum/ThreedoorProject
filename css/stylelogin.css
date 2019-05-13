@@ -1,0 +1,114 @@
+#section {
+    background-color: white;
+    padding:30px;
+    width: 60%;
+    margin: auto;
+    margin-top : 20px;
+    margin-bottom: 20px; 
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    box-shadow: 5px 8px 10px #888888;
+    min-width: 300px;
+    max-width: 400px;
+}
+.dayred
+{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Itim', cursive;
+    color: red;
+    border-radius: 2px;
+}
+
+.dayblue
+{
+    font-family: 'Itim', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color:#039be5;
+}
+
+.daygreen
+{
+    font-family: 'Itim', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color: #009900;
+}
+body  {
+    background-image: url('./bg1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+  }
+/*.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  font-size: 20px;
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+*/
+a:hover
+{
+    text-shadow: 0 2px 10px #03C80C;
+}
+
+.a
+{
+    color :#03C80C;
+}
